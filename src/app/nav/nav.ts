@@ -1,0 +1,12 @@
+import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+@Component({
+  imports: [RouterLink,MatToolbarModule,MatButtonModule],
+  selector: 'app-nav',
+  styleUrl: './nav.css',
+  templateUrl: './nav.html',
+})
+export class Nav {}
